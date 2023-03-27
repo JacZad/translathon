@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Jak odwoływać się do WCAG 2.1 z innych dokumentów</title>
+   <link rel="stylesheet" type="text/css" href="../css/style.css" ></link>	
+   <link rel="stylesheet" type="text/css" href="../css/kolory.css" ></link>	
+   <link rel="stylesheet" type="text/css" href="../css/boxes.css"></link>
+      <link rel="stylesheet" type="text/css" href="../css/base1.css"></link>	 		
+	</head>
+	<body>
+		<h1>Jak odwoływać się do WCAG 2.1 z innych dokumentów</h1>
+		<p>Poniższe przykłady pokazują, jak odwoływać się do WCAG 2.1 w różnych sytuacjach. Dodatkowe wskazówki można znaleźć w rozdziale <a href="https://www.w3.org/WAI/intro/linking.html">Odwoływanie się i linkowanie do wytycznych WAI i dokumentów technicznych</a>.</p>
+		<p>Należy pamiętać, że poniższy język odwołań do WCAG 2.1 można wstawić do własnych dokumentów.</p>
+		<section id="conformance-referencing-information">
+			<h2>Odniesienia do informacji</h2>
+			<p>Przy powoływaniu się na WCAG 2.1 w sposób informacyjny można użyć następującego formatu.</p>
+			<p><em>Wytyczne dla dostępności treści internetowych 2.0, zalecenie konsorcjum W3C World Wide Web XX miesiąc rok (https://www.w3.org/TR/YYYY/REC-WCAG21-YYYYMMDD/, Najnowsza wersja na https://www.w3.org/TR/WCAG21/)</em></p>
+		</section>
+
+		
+		<section id="conformance-referencing-should">
+			<h2>Odnosząc się do WCAG 2.1 z innego standardu ze stwierdzeniem „powinien”</h2>
+			<p>Odwołując się do WCAG 2.1 z poziomu stwierdzenia „<strong>powinien</strong>” w normie (lub stwierdzenia doradczego w rozporządzeniu), należy odnieść się do pełnego WCAG 2.1. Oznaczałoby to, że należy wziąć pod uwagę wszystkie trzy poziomy WCAG 2.1, ale żaden nie jest wymagany. Format odniesienia do WCAG 2.1 z instrukcji „powinien” jest zatem następujący:</p>
+			<p><em>Wytyczne dla dostępności treści internetowych 2.0, zalecenie konsorcjum W3C World Wide Web XX miesiąc rok  (https://www.w3.org/TR/YYYY/REC-WCAG21-YYYYMMDD/)</em></p>
+		</section>
+
+		
+		<section id="conformance-referencing-must">
+			<h2>Odnosząc się do WCAG 2.1 z innego standardu ze stwierdzeniem „powinien lub musi”</h2>
+			<p>Przy cytowaniu WCAG 2.1 jako części wymagania (np. stwierdzenie <strong>powinno lub musi</strong> w normie lub przepisie), odniesienie musi zawierać określone części WCAG 2.1, które mają być wymagane. Odwołując się do WCAG 2.1 w ten sposób, obowiązują następujące zasady:</p>
+			<ol class="enumar">
+				<li>
+					<p>Zgodność na dowolnym poziomie WCAG 2.1 wymaga spełnienia wszystkich kryteriów sukcesu poziomu A. Odniesienia do zgodności z WCAG 2.1 nie mogą dotyczyć żadnego podzbioru poziomu A.</p>
+				</li>
+				<li>
+					<p>Poza poziomem A odniesienie „powinno lub musi” może obejmować dowolny podzbiór przepisów na poziomach AA i AAA. Na przykład „<em>wszystko na poziomie A i [pewna lista kryteriów sukcesu na poziomie AA i poziomie AAA]</em>” musi zostać spełnione.</p>
+				</li>
+				<li>
+					<p>Jeśli określona jest zgodność na poziomie AA z WCAG 2.1, muszą być spełnione wszystkie kryteria sukcesu na poziomie A i AA.</p>
+				</li>
+				<li>
+					<p>Jeśli określona jest zgodność na poziomie AAA z WCAG 2.1, muszą być spełnione wszystkie kryteria sukcesu na poziomie A, wszystkie poziomy AA i wszystkie kryteria sukcesu na poziomie AAA.</p>
+					<p class="prefix"><em>Uwaga 1:</em> Nie zaleca się, aby zgodność z poziomem AAA była kiedykolwiek wymagana dla całych witryn jako ogólna polityka, ponieważ nie jest możliwe spełnienie wszystkich kryteriów sukcesu na poziomie AAA dla niektórych treści.</p>
+					<p class="prefix"><em>Uwaga 2:</em> Zestawy Kryteriów sukcesu zdefiniowane w WCAG są współzależne, a poszczególne Kryteria sukcesu opierają się na swoich definicjach w sposób, który może nie być od razu oczywisty dla czytelnika. Każdy zestaw Kryteriów sukcesu musi zawierać wszystkie postanowienia Poziomu A.	</p>
+				</li>
+			</ol>
+		</section>
+		
+		
+		<section id="conformance-referencing-examples">
+			<h2>Przykłady</h2>
+			<p><strong>Aby zacytować tylko kryteria sukcesu dla poziomu A (zgodność z pojedynczym A):</strong></p>
+			<p><em>Wytyczne dla dostępności treści internetowych 2.0, zalecenie konsorcjum W3C World Wide Web XX miesiąc ROK, kryteria sukcesu Poziom A. (https://www.w3.org/TR/YYYY/REC-WCAG21-YYYYMMDD/)</em></p>
+			<p><strong>Cytując kryteria sukcesu poziomów A i AA (zgodność z podwójnym A):</strong></p>
+			<p><em>Wytyczne dla dostępności treści internetowych 2.0, zalecenie konsorcjum W3C World Wide Web XX miesiąc ROK, kryteria sukcesu Poziom A oraz poziom AA. (https://www.w3.org/TR/YYYY/REC-WCAG21-YYYYMMDD/)</em></p>
+			<p><strong>Aby zacytować kryteria sukcesu dla poziomu A i wybrane kryteria sukcesu z poziomu AA i poziomu AAA:</strong></p>
+			<p><em>Wytyczne dla dostępności treści internetowych 2.0, zalecenie konsorcjum W3C World Wide Web XX miesiąc ROK, kryteria sukcesu Poziom A plus kryteria sukcesu 1.x.x, 2.y.y, … 3.z.z. (https://www.w3.org/TR/YYYY/REC-WCAG21-YYYYMMDD/)</em></p>
+			<p><strong>Przykład użycia odniesienia WCAG w instrukcji „powinien lub musi”</strong></p>
+			<p>Cała treść internetowa w publicznie dostępnych witrynach internetowych musi być zgodna z wytycznymi dla dostępności treści internetowych 2.0, zalecanymi przez W3C World Wide Web Consortium XX miesiąc ROK, kryteria sukcesu Poziom A plus kryteria sukcesu 1.2.3, 2.4.5-6, 3.1.2 (https://www.w3.org/TR/YYYY/REC-WCAG21-YYYYMMDD/)</p>
+		</section>
+		<section id="conformance-referencing-support">
+			<h2>Odwoływanie się do treści dokumentów pomocniczych WCAG</h2>
+			<p>Techniki, które są wymienione w Objaśnieniach WCAG 2.1 i opisane w innych dokumentach uzupełniających, nie są częścią normatywnego Zalecenia WCAG 2.1 i nie powinny być cytowane w odniesieniu do samego Zalecenia WCAG 2.1. Odniesienia do technik w dokumentach pomocniczych należy cytować oddzielnie.</p>
+			<p>Techniki mogą być cytowane na podstawie indywidualnego dokumentu Techniki lub głównego dokumentu Techniki WCAG 2.1. Na przykład technikę „Używanie atrybutów alt w elementach img” można zacytować jako</p>
+			<p class="indented"><em>„Używanie atrybutów alt w elementach img” uwaga konsorcjum W3C World Wide Web. (URI: {URI techniki}) </em></p>
+			<p class="indented">lub</p>
+			<p class="indented"><em>Konsorcjum World Wide Web W3C (200x): Techniki HTML WCAG 2.0 (URI: {(URI: {URI technik HTML})</em></p>
+			<p class="indented"><strong>Techniki nie są zaprojektowane tak, aby były określane jako „wymagane”</strong> w jakiejkolwiek normie lub przepisie. Normy i przepisy nie powinny nakładać obowiązku stosowania żadnej określonej techniki, chociaż mogą zdecydować się na zalecenie technik.</p>
+		</section>
+	</body>
+</html>

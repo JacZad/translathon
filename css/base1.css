@@ -1,0 +1,250 @@
+@custom-selector :--hovcus :hover,
+ :focus;
+@custom-media --small (width >=23em);
+@custom-media --medium (width >=35em);
+@custom-media --medlarge (width >=47.5em);
+@custom-media --large (width >=60em);
+.visuallyhidden,
+.no-display {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+    &.focusable {
+        &:active,
+        &:focus {
+            clip: auto;
+            clip-path: none;
+            height: auto;
+            margin: 0;
+            overflow: visible;
+            position: static;
+            width: auto;
+            white-space: inherit;
+        }
+    }
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/notosans/notosans-regular.woff2') format('woff2'), url('../fonts/notosans/notosans-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/notosans/notosans-italic.woff2') format('woff2'), url('../fonts/notosans/notosans-italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/notosans/notosans-bold.woff2') format('woff2'), url('../fonts/notosans/notosans-bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/notosans/notosans-bolditalic.woff2') format('woff2'), url('../fonts/notosans/notosans-bolditalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url('../fonts/notosansmono/notosansmono-regular.woff2') format('woff2'), url('../fonts/notosansmono/notosansmono-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Noto Sans Mono';
+    src: url('../fonts/notosansmono/notosansmono-bold.woff2') format('woff2'), url('../fonts/notosansmono/notosansmono-bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Noto Naskh Arabic Minimal';
+    src: url('../fonts/notonaskh/regular-minimal.woff2') format('woff2'), url('../fonts/notonaskh/regular-minimal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Noto Naskh Arabic Minimal';
+    src: url('../fonts/notonaskh/bold-minimal.woff2') format('woff2'), url('../fonts/notonaskh/bold-minimal.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Noto Naskh Arabic';
+    src: url('../fonts/notonaskh/regular.woff2') format('woff2'), url('../fonts/notonaskh/regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'Noto Naskh Arabic';
+    src: url('../fonts/notonaskh/bold.woff2') format('woff2'), url('../fonts/notonaskh/bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+html {
+    background-color: var(--off-white);
+    @media print {
+        font-size: 12pt;
+        background-color: #fff;
+    }
+}
+
+body {
+    font-family: "Noto Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    text-decoration-skip-ink: none;
+    background-color: var(--body-bg);
+    color: var(--off-black);
+    padding: 0;
+    padding: constant(safe-area-inset-top) constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left);
+    margin: 0 auto;
+    max-width: 1250px;
+    @supports (display: grid) {
+        max-width: none;
+        margin: 0;
+    }
+    @media print {
+        color: #000;
+        background-color: #fff;
+        text-decoration-skip-ink: none;
+    }
+}
+
+:lang(ar) {
+    font-family: "Noto Naskh Arabic", "Noto Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+}
+
+.languagelist :lang(ar),
+.langlist :lang(ar) {
+    font-family: "Noto Naskh Arabic Minimal", "Noto Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+}
+
+code {
+    font-size: 1em;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+a {
+    color: var(--w3c-blue);
+    &:--hovcus {
+        color: var(--wai-green);
+    }
+    &:visited {
+        color: var(--visited-link);
+    }
+    &.stealthy-link {
+        text-decoration: none;
+        color: inherit;
+        &:--hovcus {
+            color: inherit;
+        }
+        &:visited {
+            color: inherit;
+        }
+    }
+    @media print {
+        & {
+            color: #000;
+        }
+        &[href^="#"]:after {
+            content: '(⇘ ' attr(href) ')';
+        }
+        &[href^="http"]:after {
+            content: ' (' attr(href) ')';
+        }
+        &[href^="/WAI/"]:after {
+            content: ' (https://www.w3.org' attr(href) ')';
+        }
+    }
+}
+
+a,
+button,
+input,
+select,
+textarea,
+[tabindex]:not([tabindex="-1"]) {
+/*    outline: 2px solid transparent;
+    outline-offset: 5px;
+    transition: outline-offset .2s linear;*/
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus:focus,
+textarea:focus,
+[tabindex]:not([tabindex="-1"]):focus {
+    outline-color: currentColor;
+    outline-offset: 2px;
+    outline: 2px solid
+}
+
+.media-wrapper,
+.able-media-container {
+    position: relative;
+    padding-top: 56.25%;
+    & iframe,
+    & video,
+    & .img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+}
+
+.contentarea {
+    position: relative;
+}
+
+img.symbol {
+    float: inline-end;
+    margin-inline-start: 1em;
+    margin-block-end: 1em;
+}
+
+figure {
+    margin: 0 0 1em;
+}
+
+figcaption {
+    font-weight: bold;
+    border-block-end: 1px solid var(--line-grey);
+    margin-block-end: .5em;
+}
