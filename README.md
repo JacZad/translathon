@@ -21,7 +21,7 @@ Podczas pierwszego _Translathonu_ chcemy się skupić na tłumaczeniu zestawu do
 To proste. 
 
 1. Zaloguj się na swoje konto na Github. Jeśli nie masz jeszcze konta, załóż je bezpłatnie.
-1. Zgłoś swój udział w wydarzeniu - dodaj swój komentarz w wątku [Zgłoś swój udział w 1. Translathonie](issues/#1)
+1. Zgłoś swój udział w wydarzeniu - dodaj swój komentarz w wątku [Zgłoś swój udział w 1. Translathonie](https://github.com/irdpl/translathon/issues/1)
 1. Zapoznaj się ze wskazówkami **Jak tłumaczyć Objaśnienia**
 
 
