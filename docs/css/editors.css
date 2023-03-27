@@ -240,8 +240,8 @@
 			max-width: calc(100% - 2em - 26px);
 			overflow: auto;
 			padding: 0 1em;
-		/*	padding-left: 42px;
-			padding-left: calc(1em + 26px);*/
+			padding-left: 42px;
+			padding-left: calc(1em + 26px);
 			background: inherit;
 			background-color: #f7f8f9;
 			z-index: 1;
@@ -280,8 +280,8 @@
 			width: 23.5em;
 			overflow: auto;
 			padding: 0 1em;
-	/*		padding-left: 42px;
-			padding-left: calc(1em + 26px); */
+			padding-left: 42px;
+			padding-left: calc(1em + 26px);
 			background: inherit;
 			background-color: #f7f8f9;
 			z-index: 1;
@@ -298,7 +298,7 @@
 		}
 
 		body:not(.toc-inline) {
-	/*		padding-left: 29em; */
+			padding-left: 29em;
 		}
 		/* See also Overflow section at the bottom */
 
