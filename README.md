@@ -27,6 +27,6 @@ To proste.
 
 ## Wskazówki Jak tłumaczyć Objaśnienia
 
-Opublikujemy je najpóźniej 5 kwietnia.
+Zapoznaj się ze wskazówkami [Jak tłumaczyć Objaśnienia](jak-tlumaczyc-objasnienia.md)
 
 cdn 
