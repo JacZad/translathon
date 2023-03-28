@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pl" xml:lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
    <meta charset="UTF-8"></meta>
-   <title>Objaśnienie Alternatywy tekstowej</title>
+   <title>Understanding Low or No Background Audio</title>
 	<link rel="stylesheet" type="text/css" href="./../css/style.css" />
 </head>
 <body dir="ltr">
@@ -38,13 +38,13 @@
 			<nav class="nav standalone-resource-pager" aria-label="Objaśnienia">
 				<ul>
 					<li class="nav__item"><a href="../index.html">Spis Objaśnień</a></li>
-					<li class="nav__item"><a href="./../00/objasnienie-technik.html">
+					<li class="nav__item"><a href="./tresc-nietekstowa.html">
 						   <svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon" viewBox="0 0 16 16">
 							  <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"></path>
-						   </svg>Poprzednie: Objaśnienie technik dla kryteriów sukcesu WCAG</a></li>
+						   </svg>Poprzednie: KS 1.1.1 Treść nietekstowa</a></li>
 					<li class="nav__item">
-						<a href="./tresc-nietekstowa.html">
-							Następne objaśnienie: KS 1.1.1 Treść nietekstowa
+						<a href="./tylko-audio-lub-tylko-wideo-nagranie.html">
+							Następne objaśnienie: KS 1.2.1 Tylko audio lub tylko wideo (nagranie)
 							<svg focusable="false" aria-hidden="true" class="icon-arrow-right-thin pager-icon" viewBox="0 0 16 16">
 								<path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
 							</svg>
@@ -57,45 +57,105 @@
 	<div class="default-grid with-gap leftcol">
 
 		<main id="main" class="main-content standalone-resource__main">
-		
-		
-		
-		
 <!-- ==================================================== -->
-<!-- TU ROZPOCZNIJ TŁUM<ACZENIE -->
-<!-- ==================================================== -->   
+<!-- TU ROZPOCZNIJ TŁUMACZENIE -->
+<!-- ==================================================== -->   		
+
+   <h1>Understanding Low or No Background Audio</h1>
    
- 		<h1>
-			<strong>Alternatywa tekstowa</strong>
-			<br />
-			Objaśnienie wytycznej 1.1
-		</h1>     
+   
    <section id="intent">
-      <h2>Cel Alternatywy tekstowej</h2>
+      <h2>Intent of Low or No Background Audio</h2>
       
       
-      <p>Celem tej wytycznej jest zapewnienie, że wszystkie treści nietekstowe istnieją również w postaci <a class="glossary">tekstu</a>. „Tekst” odnosi się do tekstu elektronicznego, a nie do obrazu tekstu. Tekst elektroniczny ma tę wyjątkową zaletę, że jest neutralny pod względem prezentacji. To znaczy, że może być przedstawiony wizualnie, dźwiękowo, dotykowo lub w dowolnej kombinacji. W rezultacie informacje zawarte w tekście elektronicznym mogą być prezentowane w dowolnej formie, najlepiej odpowiadającej potrzebom użytkownika. Można go również łatwo powiększyć, wypowiedzieć na głos, aby ułatwić zrozumienie osobom z trudnościami w czytaniu, lub przedstawić w dowolnej formie dotykowej, która najlepiej odpowiada potrzebom użytkownika.	
+      <p>The intent of this Success Criterion is to ensure that any non-speech sounds are low
+         enough that a user who is hard of hearing can separate the speech from background
+         sounds or other noise foreground speech content. 
+         
+         
       </p>
-	  
       
-      <div class="note">
+      <p>The value of 20 dB was chosen based on Large area assistive listening systems (ALS):
+         Review and recommendations [[LAALS]] and In-the-ear measurements of interference in hearing aids from digital wireless
+         telephones [[HEARING-AID-INT]] 
          
-         <p>O ile zamiana treści na symbole obejmuje zamianę jej na symbole graficzne dla osób z zaburzeniami rozwojowymi i trudnościami w rozumieniu mowy, to nie ogranicza się do takiego zastosowania symboli.
-         </p>
+      </p>
+      
+      
+   </section>
+   <section id="benefits">
+      <h2>Benefits of Low or No Background Audio</h2>
+      
+      
+      <ul>
          
-      </div>
+         <li>People who are hard of hearing often have great difficulty separating speech from
+            background sound. 
+         </li>
+         
+      </ul>
       
    </section>
    
-   <section id="advisory">
-      <h3>Pomocnicze techniki dla alternatywy tekstowej</h3>
+   <section id="examples">
+      <h2>Examples of Low or No Background Audio</h2>
+      
       
    </section>
+   
+  <section id="resources">
+      <h2>Resources for Low or No Background Audio</h2>
 
 
+      <ul>
 
+         <li>
+
+            <a href="https://ds.gpii.net/content/about-decibels-db">About Decibels</a>
+
+         </li>
+
+      </ul>
+
+   </section>
+  
+   <section id="techniques">
+      <h2>Techniques for Low or No Background Audio</h2>
+      
+      
+      <section id="sufficient">
+         <h3>Sufficient Techniques for Low or No Background Audio</h3>
+         
+         
+         <ol>
+            
+            <li>
+               									         
+               <a href="https://www.w3.org/WAI/WCAG21/Techniques/general/G56" class="general">Mixing audio files so that non-speech sounds are at least 20 decibels lower than the
+                  speech audio content
+               </a>
+               								       
+            </li>
+            
+         </ol>
+         
+      </section>
+      
+      <section id="advisory">
+         <h3>Additional Techniques (Advisory) for Low or No Background Audio</h3>
+         
+      </section>
+      
+      <section id="failure">
+         <h3>Failures for Low or No Background Audio</h3>
+         
+         
+      </section>
+      
+   </section>
+   
 <!-- ==================================================== -->
-<!-- PONIŻEJ NIC NIE ZZMIENIAJ -->
+<!-- PONIŻEJ NIC NIE ZMIENIAJ -->
 <!-- ==================================================== -->   
 		</main>
 	</div>
