@@ -1,5 +1,5 @@
-# Translathon
-Dokumenty WCAG do tłumaczenia w ramach wydarzeń Translathon
+# Translathon Challenge
+Dokumenty WCAG do tłumaczenia w ramach wydarzeń Translathon Challenge
 
 W repozytorium **Translathon** znajdują się dokumenty WCAG przeznaczone do tłumaczenia w ramach cyklicznych wydarzeń _Translathon_. 
 
