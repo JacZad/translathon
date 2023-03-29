@@ -31,7 +31,7 @@ W niektórych objaśnieniach znajdują się ilustracje (objęte znacznikiem `img
 - Możesz w nawiasie umieścić tłumaczenie na język polski tytuły zasobów, do których prowadzą łącza.   
 
 ## Wskazówki dotyczące tłumaczenia
-1. Śmiało **wspomagaj się translatorami internetowymi**. To nie ujma. Zawodowi tłumacze również wspomagają się narzędziami automatycznymi. Dobrą praktyką jest korzystanie co najmniej z dwóch translatorów, np. [Tłłumacz Deepl](https://www.deepl.com/translator) oraz [Google Tłumacz](https://translate.google.com/). Do dyspozycji masz także Bind (w przeglądarce Edge).
+1. Śmiało **wspomagaj się translatorami internetowymi**. To nie ujma. Zawodowi tłumacze również wspomagają się narzędziami automatycznymi. Dobrą praktyką jest korzystanie co najmniej z dwóch translatorów, np. [Tłumacz Deepl](https://www.deepl.com/translator) oraz [Google Tłumacz](https://translate.google.com/). Do dyspozycji masz także Bind (w przeglądarce Edge).
 1. **Oddaj wiernie sens tekstu źródłowego**. „Tłumacz nie jest zobowiązany do tłumaczenia dosłownego, lecz ma za zadanie oddać wiernie sens tekstu źródłowego zgodnie z naturą i specyfiką obu języków”, „Wierność to zgodność z oryginałem pod względem przekazywanych treści, intencji i specyfiki języka”.
 1. **Nie twórz nowej treści**. Nie dodawaj treści i znaczeń, których nie ma w oryginale. Nie odejmuj niczego, co jest w oryginale.
 1. **Nie zmniejszaj i nie wzmacniaj** znaczenia żadnej treści.

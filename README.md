@@ -16,7 +16,7 @@ Podczas _I Tranlathon Challenge_ chcemy się skupić na tłumaczeniu zestawu dok
 
 # Jak wziąć udział w I Translathon Challenge
 
-Do udziału w I Tranlathon Challenge **otrzymasz nominację** od kogoś, kto już wcześniej został nominowany (albo jest w gronie inicjatorów).  
+Do udziału w I Translathon Challenge **otrzymasz nominację** od kogoś, kto już wcześniej został nominowany (albo jest w gronie inicjatorów).  
 
 Zdecyduj, czy przyjmiesz nominację. Jeśli tak: 
 
