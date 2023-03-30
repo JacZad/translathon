@@ -1,72 +1,187 @@
 <!DOCTYPE html>
 <html lang="pl" xml:lang="pl" xmlns="http://www.w3.org/1999/xhtml">
-   <meta charset="UTF-8" />
-	<head>
-		<title>Dokumentowanie wsparcia dostępności dla zastosowań technologii internetowej</title>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Dokumentowanie wsparcia dostępności dla zastosowań technologii internetowej</title>
+    <link rel="stylesheet" type="text/css" href="./../css/style.css" />
+</head>
 
-      <link rel="stylesheet" type="text/css" href="../css/editors.css"></link>
+<body dir="ltr">
+    <div class="minimal-header-container default-grid">
+        <div class="minimal-header" id="site-header">
+            <div class="minimal-header-name"><a href="https://www.irdpl.pl/translathon/">Objaśnienia WCAG 2.2</a></div>
 
-  
-	</head>
-	<body>
-		<h1>Dokumentowanie wsparcia dostępności dla zastosowań technologii internetowej</h1>
-		<p>Dokumentacja wsparcia dostępności dla zastosowań technologii internetowej dostarcza informacji potrzebnych do określenia, czy możliwe jest spełnienie kryteriów sukcesu WCAG 2.1 dla danego środowiska.</p>
-		<p>Dokumentacja wsparcia dostępności dla zastosowań technologii internetowej zawiera następujące informacje:</p>
-		<ul>
-			<li>
-				<p>Wersja lub wersje technologii </p>
-			</li>
-			<li>
-				<p>Dla każdego programu użytkownika lub wtyczki obsługującej tę wersję technologii:</p>
-				<ul>
-					<li>
-						<p>Wersja programu użytkownika lub wtyczki, w tym system operacyjny lub platforma</p>
-					</li>
-					<li>
-						<p>Sposoby korzystania z technologii, które są wspierane przez program użytkownika; w idealnym przypadku istnieją sposoby spełnienia wszystkich kryteriów sukcesu, ale należy odnotować wyjątki.</p>
-					</li>
-					<li>
-						<p>Znane ograniczenia wsparcia programu użytkownika dla zastosowań technologii w celu spełnienia kryteriów sukcesu</p>
-					</li>
-				</ul>
-			</li>
-			
-	
-			<li>
-				<p>Dla każdej technologii wspomagającej, która wspiera technologię internetową:</p>
-				<ul>
-					<li>
-						<p>Wersja technologii wspomagającej, w tym system operacyjny lub platforma </p>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p>Dla każdego programu użytkownika hosta, który jest wspierany przez tę wersję technologii wspomagającej:</p>
-				<ul>
-					<li>
-						<p>Sposoby korzystania z technologii wspieranej przez technologię wspomagającą dla tego programu użytkownika.</p>
-					</li>
-					<li>
-						<p>Znane ograniczenia w obsłudze zastosowań technologii w celu spełnienia kryteriów sukcesu podczas korzystania z technologii wspomagającej z tym programem użytkownika</p>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	
-		
-		<p>Środowiska docelowe są definiowane przez aplikacje klienckie i technologie wspomagające dostępne dla użytkowników. Dokumentacja wsparcia dostępności wymaga szczegółowego zrozumienia sposobów wykorzystania funkcjonalności danej technologii w celu spełnienia kryteriów sukcesu, a także programów użytkownika i technologii wspomagających. Z tego powodu zachęca się sprzedawców i twórców technologii internetowych oraz programów użytkownika do udostępniania informacji informacji na temat wspierania dostępności w ich produktach. Podobnie zachęca się programistów i sprzedawców technologii wspomagających do udostępniania informacji o sposobach korzystania z technologii internetowych, które są wspierane przez ich produkty. Autorzy powinni dokumentować sposoby wykorzystania technologii wspierających dostępność tylko wtedy, gdy nie ma wiarygodnej dokumentacji dostępnej od sprzedawców lub grup testujących te sposoby wykorzystania.</p>
-		
-		<p>W kontrolowanym środowisku, takim jak miejsce pracy w firmie, dostępne programy klienckie i technologie wspomagające mogą być określonym zestawem wersji programów klienckich na określonym zestawie platform. Aby określić, czy zastosowania technologii internetowej są wspierane pod względem dostępności w środowisku docelowym, autor sprawdza, czy dostępne programy klienckie użytkownika i technologie wspomagające znajdują się w zestawie wspieranych programów klienckich i technologii wspomagających wymienionych dla tych zastosowań w dokumentacji wsparcia dostępności.</p>
-		
-		<p>W przypadku środowiska docelowego, takiego jak Internet, autorzy mogą być zmuszeni do rozważenia znacznie większego zestawu programów klienckich, w tym starszych wersji, na szerszej gamie platform.	</p>
 
-		<p>Środowiska używające różnych języków naturalnych są różnymi środowiskami docelowymi. Na przykład, wspierane pod względem dostępności sposoby korzystania z technologii dla środowiska anglojęzycznego mogą się różnić od tych w środowisku języka arabskiego, ponieważ mogą istnieć różne programy użytkownika i technologie wspomagające obsługujące te języki.</p>
+            <div class="minimal-header-subtitle">Objaśnienia informacyjne, nie wymagane do spełnienia WCAG</div><a class="minimal-header-link" href="./00/intro.html">O Objaśnieniach WCAG</a>
 
-		<p>Dokumentacja zawiera informacje dotyczące poszczególnych wersji wszystkich technologii wspomagających i wszystkich programów użytkownika oraz sposobów ich wzajemnej interakcji. Jeśli wsparcie w tych programach użytkownika jest podobne, autor będzie mógł łatwo zdecydować, czy udokumentowany sposób korzystania z technologii jest wspierany pod względem dostępności. Jeżeli obsługiwane zastosowania są różne w różnych wersjach, autorzy mogą przy określaniu wsparcia dostępności polegać jedynie na zastosowaniach, które są obsługiwane w wersjach dostępnych dla ich użytkowników.	</p>
+            <div class="minimal-header-logo">
+                <a href="https://www.irdpl.pl/" aria-label="IRDpl">
+                    <svg width="64" height="64" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="translate(-52.786)">
+                            <g transform="matrix(.083293 0 0 .082149 51.927 -1.8798)">
+                                <path d="m165.51 24.704 25.242 113.23 22.222 96.296 203.43-45.381v-130.32c0-18.74-15.087-33.826-33.826-33.826z" fill="#8ab958" />
+                                <path d="m416.9 185.98-203.08 45.303 45.234 202.94h124.02c18.74 0 33.826-15.087 33.826-33.826z" fill="#eba757" />
+                                <path d="m213.11 228.56-202.8 45.24v123.87c0 18.74 15.087 33.826 33.826 33.826h214.21z" fill="#d85237" />
+                                <path d="m44.215 21.967c-18.74 0-33.826 15.087-33.826 33.826v220.86l202.8-45.24-46.688-209.45z" fill="#5e90c7" />
+                            </g>
+                            <path d="m69.529 2.7685c-1.7358-1.086e-4 -3.143 1.3876-3.1432 3.0996 0.0022 1.0221 0.51493 1.9774 1.3708 2.5537 0.26449 0.1799 0.55536 0.31874 0.8625 0.41169 0.29496 0.088655 0.60154 0.13402 0.9099 0.13463 1.7358-1.645e-4 3.1429-1.388 3.1428-3.1-8.3e-5 -1.7118-1.4071-3.0995-3.1428-3.0996zm-10.118 5.7221c-0.8029-0.040683-1.4287 0.66714-1.4335 1.555l0.04301 14.996 9.5336 4.4576 1.8764 0.87187v0.0034l0.01798 0.0082 0.0036-0.0019 0.0039 0.0019 0.01798-0.0082v-0.0034l1.8764-0.87187 9.5336-4.4576 0.04302-14.996c-0.004807-0.88785-0.63073-1.5957-1.4336-1.555-2.1007 0.14683-4.1463 0.6974-6.2236 1.0165-1.2365 0.25638-2.5331 0.37014-3.8178 0.36407-1.2846 0.0060235-2.581-0.10773-3.8174-0.36407-2.0773-0.31905-4.123-0.86963-6.2236-1.0165zm1.8242 3.481c2.2398 0.61705 3.348 0.84816 5.4743 1.0463-0.0063 3.3557-0.36306 7.444-1.9207 11.38l-3.4979-1.8225c0.0038-2.9576-0.08821-6.7889-0.05573-10.604zm16.434 0c0.03247 3.8146-0.0596 7.6459-0.05574 10.604l-3.4979 1.8225c-1.5577-3.9357-1.9145-8.0241-1.9208-11.38 2.1263-0.19816 3.2345-0.42928 5.4744-1.0463zm-8.2172 7.8898c0.59145 1.8754 1.0408 4.0024 1.955 5.8484l-1.955 1.0126-1.9546-1.0126c0.91417-1.8459 1.3631-3.9731 1.9546-5.8484z" fill="#f2f2f2" />
+                        </g>
+                    </svg>
+                </a>
 
-		
-		<p>Jeśli sposób wykorzystania technologii nie jest podstawą do zapewnienia zgodności, brak wsparcia dostępności dla tego zastosowania nie uniemożliwia zapewnienia zgodności strony internetowej. Jeśli więc nieobsługiwane zastosowanie nie występuje w treści lub jeśli dostępna jest zgodna wersja tej treści, strona internetowa nadal jest zgodna. Na przykład, brak wsparcia dostępności dla interaktywnych elementów sterujących w technologii internetowej nie uniemożliwi wykorzystania technologii internetowej do nieinteraktywnych treści, które są wspierane pod względem dostępności.</p>
+            </div>
+        </div>
+    </div>
 
-		
-	</body>
+
+    <div class="default-grid nav-container nav-page-specific">
+        <div class="nav">
+            <nav class="nav standalone-resource-pager" aria-label="Objaśnienia">
+                <ul>
+                    <li class="nav__item"><a href="../index.html">Spis Objaśnień</a></li>
+                    <li class="nav__item">
+                        <a href="./odwolania-do-wcag.html">
+                            <svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"></path>
+                            </svg>Poprzednie: Jak odwoływać się do WCAG 2.2 z innych dokumentów
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="./metadane.html">
+                            Następne objaśnienie: Metadane
+                            <svg focusable="false" aria-hidden="true" class="icon-arrow-right-thin pager-icon" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="default-grid with-gap leftcol">
+        <aside class="box nav-hack sidebar standalone-resource__sidebar ">
+            <nav>
+                <header class="box-h ">Treść strony</header>
+                <div class="box-i">
+                    <ul>
+                        <li><a href="#aboutwcag">O WCAG</a></li>
+                        <li><a href="#introduction">O dokumentach objaśniających WCAG</a></li>
+                        <li><a href="#structure">Struktura dokumentów</a></li>
+                        <li><a href="#changelog">Dziennik zmian</a></li>
+                        <li><a href="#acknowledgements">Podziękowania</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+        <main id="main" class="main-content standalone-resource__main">
+            <h1>
+                <strong>Dokumentowanie wsparcia dostępności dla zastosowań technologii internetowej</strong>
+            </h1>		
+
+            <p>Dokumentacja wsparcia dostępności dla zastosowań technologii internetowej dostarcza informacji potrzebnych do określenia, czy możliwe jest spełnienie kryteriów sukcesu WCAG 2.1 dla danego środowiska.</p>
+            <p>Dokumentacja wsparcia dostępności dla zastosowań technologii internetowej zawiera następujące informacje:</p>
+            <ul>
+                <li>
+                    <p>Wersja lub wersje technologii </p>
+                </li>
+                <li>
+                    <p>Dla każdego programu użytkownika lub wtyczki obsługującej tę wersję technologii:</p>
+                    <ul>
+                        <li>
+                            <p>Wersja programu użytkownika lub wtyczki, w tym system operacyjny lub platforma</p>
+                        </li>
+                        <li>
+                            <p>Sposoby korzystania z technologii, które są wspierane przez program użytkownika; w idealnym przypadku istnieją sposoby spełnienia wszystkich kryteriów sukcesu, ale należy odnotować wyjątki.</p>
+                        </li>
+                        <li>
+                            <p>Znane ograniczenia wsparcia programu użytkownika dla zastosowań technologii w celu spełnienia kryteriów sukcesu</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li>
+                    <p>Dla każdej technologii wspomagającej, która wspiera technologię internetową:</p>
+                    <ul>
+                        <li>
+                            <p>Wersja technologii wspomagającej, w tym system operacyjny lub platforma </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p>Dla każdego programu użytkownika hosta, który jest wspierany przez tę wersję technologii wspomagającej:</p>
+                    <ul>
+                        <li>
+                            <p>Sposoby korzystania z technologii wspieranej przez technologię wspomagającą dla tego programu użytkownika.</p>
+                        </li>
+                        <li>
+                            <p>Znane ograniczenia w obsłudze zastosowań technologii w celu spełnienia kryteriów sukcesu podczas korzystania z technologii wspomagającej z tym programem użytkownika</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+
+            <p>Środowiska docelowe są definiowane przez aplikacje klienckie i technologie wspomagające dostępne dla użytkowników. Dokumentacja wsparcia dostępności wymaga szczegółowego zrozumienia sposobów wykorzystania funkcjonalności danej technologii w celu spełnienia kryteriów sukcesu, a także programów użytkownika i technologii wspomagających. Z tego powodu zachęca się sprzedawców i twórców technologii internetowych oraz programów użytkownika do udostępniania informacji informacji na temat wspierania dostępności w ich produktach. Podobnie zachęca się programistów i sprzedawców technologii wspomagających do udostępniania informacji o sposobach korzystania z technologii internetowych, które są wspierane przez ich produkty. Autorzy powinni dokumentować sposoby wykorzystania technologii wspierających dostępność tylko wtedy, gdy nie ma wiarygodnej dokumentacji dostępnej od sprzedawców lub grup testujących te sposoby wykorzystania.</p>
+
+            <p>W kontrolowanym środowisku, takim jak miejsce pracy w firmie, dostępne programy klienckie i technologie wspomagające mogą być określonym zestawem wersji programów klienckich na określonym zestawie platform. Aby określić, czy zastosowania technologii internetowej są wspierane pod względem dostępności w środowisku docelowym, autor sprawdza, czy dostępne programy klienckie użytkownika i technologie wspomagające znajdują się w zestawie wspieranych programów klienckich i technologii wspomagających wymienionych dla tych zastosowań w dokumentacji wsparcia dostępności.</p>
+
+            <p>W przypadku środowiska docelowego, takiego jak Internet, autorzy mogą być zmuszeni do rozważenia znacznie większego zestawu programów klienckich, w tym starszych wersji, na szerszej gamie platform.	</p>
+
+            <p>Środowiska używające różnych języków naturalnych są różnymi środowiskami docelowymi. Na przykład, wspierane pod względem dostępności sposoby korzystania z technologii dla środowiska anglojęzycznego mogą się różnić od tych w środowisku języka arabskiego, ponieważ mogą istnieć różne programy użytkownika i technologie wspomagające obsługujące te języki.</p>
+
+            <p>Dokumentacja zawiera informacje dotyczące poszczególnych wersji wszystkich technologii wspomagających i wszystkich programów użytkownika oraz sposobów ich wzajemnej interakcji. Jeśli wsparcie w tych programach użytkownika jest podobne, autor będzie mógł łatwo zdecydować, czy udokumentowany sposób korzystania z technologii jest wspierany pod względem dostępności. Jeżeli obsługiwane zastosowania są różne w różnych wersjach, autorzy mogą przy określaniu wsparcia dostępności polegać jedynie na zastosowaniach, które są obsługiwane w wersjach dostępnych dla ich użytkowników.	</p>
+
+
+            <p>Jeśli sposób wykorzystania technologii nie jest podstawą do zapewnienia zgodności, brak wsparcia dostępności dla tego zastosowania nie uniemożliwia zapewnienia zgodności strony internetowej. Jeśli więc nieobsługiwane zastosowanie nie występuje w treści lub jeśli dostępna jest zgodna wersja tej treści, strona internetowa nadal jest zgodna. Na przykład, brak wsparcia dostępności dla interaktywnych elementów sterujących w technologii internetowej nie uniemożliwi wykorzystania technologii internetowej do nieinteraktywnych treści, które są wspierane pod względem dostępności.</p>
+
+        </main>
+
+    </div>
+    <footer class="site-footer grid-4q" aria-label="Site">
+        <div class="q1-start q3-end about">
+            <div style="margin-bottom:1em">
+                <p><a class="largelink" href="https://www.irdpl.pl/" dir="auto" translate="no" lang="pl">© Polska Izba Rzemiosła Dostępnościowego</a></p>
+                <p>
+                    Platforma swobodnej współpracy osób i firm, które zajmują się dostępnością i chcą rozwijać w Polsce rynek rzetelnych usług dostępnościowych
+                </p>
+            </div>
+            <div dir="auto" translate="no" lang="en" style="margin-bottom:1em">
+                <p>
+                    Prawa autorskie do wszystkich materiałów w tej witrynie należą do W3C.<br />Copyright © 2023 W3C <sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>, <a href="https://ev.buaa.edu.cn">Beihang</a>) <a href="https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231">Zezwolenie na wykorzystanie materiałów WAI</a>.
+                </p>
+
+            </div>
+        </div>
+        <div dir="auto" translate="no" class="q4-start q4-end" lang="en">
+            <!--       <ul style="margin-bottom:0">
+                      <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+                      <li><a href="/sitemap/">Site Map</a></li>
+                      <li><a href="/news/">News</a></li>
+                      <li><a href="/sitemap/#archive">Archive</a></li>
+                      <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+                      <li><a href="/translations/"> Translations</a></li>
+                      <li><a href="/WAI/roles/">Resources for Roles</a></li>
+                   </ul> -->
+        </div>
+    </footer>
+
+
+
+    <a class="button button-backtotop" href="#top">
+        <span>
+            <svg focusable="false" aria-hidden="true" class="icon-arrow-up " viewBox="0 0 26 28">
+                <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+            </svg> Wróć do góry
+        </span>
+    </a>
+
+    <script>
+        var translationStrings = {}; /* fix WAI JS */
+    </script>
+    <script src="https://www.w3.org/WAI/assets/scripts/main.js"></script>
+</body>
 </html>
