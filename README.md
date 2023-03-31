@@ -1,7 +1,7 @@
-# Translathon Challenge
-Dokumenty WCAG do tłumaczenia w ramach wydarzeń Translathon Challenge
+# Translathon  WCAG Challenge
+Dokumenty WCAG do tłumaczenia w ramach wydarzeń Translathon WCAG Challenge
 
-W repozytorium **Translathon** znajdują się dokumenty WCAG przeznaczone do tłumaczenia w ramach cyklicznych wydarzeń _Translathon_. 
+W repozytorium **translathon** znajdują się dokumenty WCAG przeznaczone do tłumaczenia w ramach cyklicznych wydarzeń _Translathon_. 
 
 Pierwsze wydarzenie planowane jest w dniach od 12 do 16 kwietnia 2023 roku. 
 
@@ -14,9 +14,9 @@ Celem głównym cyklu wydarzeń _Translathon_ jest przetłumaczenie na język po
 
 Podczas _I Tranlathon Challenge_ chcemy się skupić na tłumaczeniu zestawu dokumentów **Objaśnienia WCAG 2**
 
-# Jak wziąć udział w I Translathon Challenge
+# Jak wziąć udział w I Translathon WCAG Challenge
 
-Do udziału w I Translathon Challenge **otrzymasz nominację** od kogoś, kto już wcześniej został nominowany (albo jest w gronie inicjatorów).  
+Do udziału w I Translathon WCAG Challenge **otrzymasz nominację** od kogoś, kto już wcześniej został nominowany (albo jest w gronie inicjatorów).  
 
 Zdecyduj, czy przyjmiesz nominację. Jeśli tak: 
 
