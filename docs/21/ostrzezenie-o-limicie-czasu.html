@@ -1,168 +1,174 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> 
-		<title>Objaśnienie KS 2.2.6 Ostrzeżenie o limicie czasu</title>
-	<link rel="stylesheet" type="text/css" href="./../css/style.css" />
-</head>
-<body dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> 
+    <title>Objaśnienie KS 2.2.6 Ostrzeżenie o limicie czasu</title>
+    <link rel="stylesheet" type="text/css" href="./../css/style.css" />
+  </head>
+  <body dir="ltr">
 
-	<div class="minimal-header-container default-grid">
-		<div class="minimal-header" id="site-header">
-			<div class="minimal-header-name"><a href="https://www.irdpl.pl/translathon/">Objaśnienia WCAG 2.2</a></div>
+    <div class="minimal-header-container default-grid">
+      <div class="minimal-header" id="site-header">
+        <div class="minimal-header-name"><a href="https://www.irdpl.pl/translathon/">Objaśnienia WCAG 2.2</a></div>
 
-			<div class="minimal-header-subtitle">Objaśnienia informacyjne, nie wymagane do spełnienia WCAG</div><a class="minimal-header-link" href="../00/intro.html">O Objaśnieniach WCAG</a>
+        <div class="minimal-header-subtitle">Objaśnienia informacyjne, nie wymagane do spełnienia WCAG</div><a class="minimal-header-link" href="../00/intro.html">O Objaśnieniach WCAG</a>
 
-			<div class="minimal-header-logo">
-				<a href="https://www.irdpl.pl/" aria-label="IRDpl">
-					<svg width="64" height="64" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
-						<g transform="translate(-52.786)">
-							<g transform="matrix(.083293 0 0 .082149 51.927 -1.8798)">
-								<path d="m165.51 24.704 25.242 113.23 22.222 96.296 203.43-45.381v-130.32c0-18.74-15.087-33.826-33.826-33.826z" fill="#8ab958" />
-								<path d="m416.9 185.98-203.08 45.303 45.234 202.94h124.02c18.74 0 33.826-15.087 33.826-33.826z" fill="#eba757" />
-								<path d="m213.11 228.56-202.8 45.24v123.87c0 18.74 15.087 33.826 33.826 33.826h214.21z" fill="#d85237" />
-								<path d="m44.215 21.967c-18.74 0-33.826 15.087-33.826 33.826v220.86l202.8-45.24-46.688-209.45z" fill="#5e90c7" />
-							</g>
-							<path d="m69.529 2.7685c-1.7358-1.086e-4 -3.143 1.3876-3.1432 3.0996 0.0022 1.0221 0.51493 1.9774 1.3708 2.5537 0.26449 0.1799 0.55536 0.31874 0.8625 0.41169 0.29496 0.088655 0.60154 0.13402 0.9099 0.13463 1.7358-1.645e-4 3.1429-1.388 3.1428-3.1-8.3e-5 -1.7118-1.4071-3.0995-3.1428-3.0996zm-10.118 5.7221c-0.8029-0.040683-1.4287 0.66714-1.4335 1.555l0.04301 14.996 9.5336 4.4576 1.8764 0.87187v0.0034l0.01798 0.0082 0.0036-0.0019 0.0039 0.0019 0.01798-0.0082v-0.0034l1.8764-0.87187 9.5336-4.4576 0.04302-14.996c-0.004807-0.88785-0.63073-1.5957-1.4336-1.555-2.1007 0.14683-4.1463 0.6974-6.2236 1.0165-1.2365 0.25638-2.5331 0.37014-3.8178 0.36407-1.2846 0.0060235-2.581-0.10773-3.8174-0.36407-2.0773-0.31905-4.123-0.86963-6.2236-1.0165zm1.8242 3.481c2.2398 0.61705 3.348 0.84816 5.4743 1.0463-0.0063 3.3557-0.36306 7.444-1.9207 11.38l-3.4979-1.8225c0.0038-2.9576-0.08821-6.7889-0.05573-10.604zm16.434 0c0.03247 3.8146-0.0596 7.6459-0.05574 10.604l-3.4979 1.8225c-1.5577-3.9357-1.9145-8.0241-1.9208-11.38 2.1263-0.19816 3.2345-0.42928 5.4744-1.0463zm-8.2172 7.8898c0.59145 1.8754 1.0408 4.0024 1.955 5.8484l-1.955 1.0126-1.9546-1.0126c0.91417-1.8459 1.3631-3.9731 1.9546-5.8484z" fill="#f2f2f2" />
-						</g>
-					</svg>
-				</a>
+        <div class="minimal-header-logo">
+          <a href="https://www.irdpl.pl/" aria-label="IRDpl">
+            <svg width="64" height="64" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+              <g transform="translate(-52.786)">
+                <g transform="matrix(.083293 0 0 .082149 51.927 -1.8798)">
+                  <path d="m165.51 24.704 25.242 113.23 22.222 96.296 203.43-45.381v-130.32c0-18.74-15.087-33.826-33.826-33.826z" fill="#8ab958" />
+                  <path d="m416.9 185.98-203.08 45.303 45.234 202.94h124.02c18.74 0 33.826-15.087 33.826-33.826z" fill="#eba757" />
+                  <path d="m213.11 228.56-202.8 45.24v123.87c0 18.74 15.087 33.826 33.826 33.826h214.21z" fill="#d85237" />
+                  <path d="m44.215 21.967c-18.74 0-33.826 15.087-33.826 33.826v220.86l202.8-45.24-46.688-209.45z" fill="#5e90c7" />
+                </g>
+                <path d="m69.529 2.7685c-1.7358-1.086e-4 -3.143 1.3876-3.1432 3.0996 0.0022 1.0221 0.51493 1.9774 1.3708 2.5537 0.26449 0.1799 0.55536 0.31874 0.8625 0.41169 0.29496 0.088655 0.60154 0.13402 0.9099 0.13463 1.7358-1.645e-4 3.1429-1.388 3.1428-3.1-8.3e-5 -1.7118-1.4071-3.0995-3.1428-3.0996zm-10.118 5.7221c-0.8029-0.040683-1.4287 0.66714-1.4335 1.555l0.04301 14.996 9.5336 4.4576 1.8764 0.87187v0.0034l0.01798 0.0082 0.0036-0.0019 0.0039 0.0019 0.01798-0.0082v-0.0034l1.8764-0.87187 9.5336-4.4576 0.04302-14.996c-0.004807-0.88785-0.63073-1.5957-1.4336-1.555-2.1007 0.14683-4.1463 0.6974-6.2236 1.0165-1.2365 0.25638-2.5331 0.37014-3.8178 0.36407-1.2846 0.0060235-2.581-0.10773-3.8174-0.36407-2.0773-0.31905-4.123-0.86963-6.2236-1.0165zm1.8242 3.481c2.2398 0.61705 3.348 0.84816 5.4743 1.0463-0.0063 3.3557-0.36306 7.444-1.9207 11.38l-3.4979-1.8225c0.0038-2.9576-0.08821-6.7889-0.05573-10.604zm16.434 0c0.03247 3.8146-0.0596 7.6459-0.05574 10.604l-3.4979 1.8225c-1.5577-3.9357-1.9145-8.0241-1.9208-11.38 2.1263-0.19816 3.2345-0.42928 5.4744-1.0463zm-8.2172 7.8898c0.59145 1.8754 1.0408 4.0024 1.955 5.8484l-1.955 1.0126-1.9546-1.0126c0.91417-1.8459 1.3631-3.9731 1.9546-5.8484z" fill="#f2f2f2" />
+              </g>
+            </svg>
+          </a>
 
-			</div>
-		</div>
-	</div>
+        </div>
+      </div>
+    </div>
 
+    <div class="default-grid nav-container nav-page-specific">
+      <div class="nav">
+        <nav class="nav standalone-resource-pager" aria-label="Objaśnienia">
+          <ul>
+            <li class="nav__item"><a href="../index.html">Spis Objaśnień</a></li>
+            <li class="nav__item"><a href="./../20/ponowne-potwierdzenie-autentycznosci.html">
+              <svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"></path>
+              </svg>Poprzednie: KS 2.2.5 Ponowne potwierdzenie autentyczności</a></li>
+            <li class="nav__item">
+              <a href="./../20/reakcje-napadowe-i-fizyczne.html">
+                Następne: Wytyczna 2.3 Reakcje napadowe i fizyczne
+                <svg focusable="false" aria-hidden="true" class="icon-arrow-right-thin pager-icon" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="default-grid with-gap leftcol">
 
-	<div class="default-grid nav-container nav-page-specific">
-		<div class="nav">
-			<nav class="nav standalone-resource-pager" aria-label="Objaśnienia">
-				<ul>
-					<li class="nav__item"><a href="../index.html">Spis Objaśnień</a></li>
-					<li class="nav__item"><a href="./../20/ponowne-potwierdzenie-autentycznosci.html">
-						   <svg focusable="false" aria-hidden="true" class="icon-arrow-left-thin pager-icon" viewBox="0 0 16 16">
-							  <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"></path>
-						   </svg>Poprzednie: KS 2.2.5 Ponowne potwierdzenie autentyczności</a></li>
-					<li class="nav__item">
-						<a href="./../20/reakcje-napadowe-i-fizyczne.html">
-							Następne: Wytyczna 2.3 Reakcje napadowe i fizyczne
-							<svg focusable="false" aria-hidden="true" class="icon-arrow-right-thin pager-icon" viewBox="0 0 16 16">
-								<path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
-							</svg>
-						</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-	<div class="default-grid with-gap leftcol">
+      <main id="main" class="main-content standalone-resource__main">
+        <h1>
+          <strong>Ostrzeżenie o limicie czasu</strong>
+          <br />
+          Objaśnienie
+          <abbr title="Kryterium sukcesu">KS</abbr>
+          2.2.6
+        </h1>
 
-		<main id="main" class="main-content standalone-resource__main">
-<!-- ==================================================== -->
-<!-- TU ROZPOCZNIJ TŁUMACZENIE -->
-<!-- ==================================================== -->   		
+        <section>			
+          <p><a target="_blank" rel="noopener" href="https://github.com/irdpl/translathon/edit/main/docs/21/ostrzezenie-o-limicie-czasu.html" class="przycisk" role="button"> Tłumacz to Objaśnienie</a></p>
+        </section>
 
-            <h1>
-                <strong>Ostrzeżenie o limicie czasu</strong>
-                <br />
-                Objaśnienie
-                <abbr title="Kryterium sukcesu">KS</abbr>
-                2.2.6
-            </h1>
-		<section id="intent">
-			<h2>Intent</h2>
-			<p>The intent of this Success Criterion is to ensure that when a timeout is used, users know what duration of inactivity will cause the page to time out and result in lost data. The use of timed events can present significant barriers for users with cognitive disabilities, as these users may require more time to read content or to perform functions, such as completing an online form.</p>
-			<p>During the completion of an online process, such as to reserve a hotel room or purchase a plane ticket, a user with a cognitive impairment may become overwhelmed with lengthy instructions and data input required to complete the process. The user may not be able to complete the process in one sitting and may need to take a break. Users should be able to leave a process without losing their current place within the process, and without losing information that has already been entered. If users cannot take a break and check their work, many will often be unable to complete a task correctly.</p>
-<p>This Success Criterion works in tandem with Success Criterion 2.2.1 Timing Adjustable, but is specifically focused on notification of timeouts related to user inactivity.</p>
-      <p>The best way to conform to this success criterion is to keep the user data for at least 20 hours. This enables the user with disabilities and the aging community to start and finish a task, taking breaks as needed. However, when it is not practical to save the user data the author must warn the user about the duration of inactivity which will result in a timeout. Timeouts should be displayed to the user once at the beginning of the related task or process and not at each step.</p>
-      <p>This success criterion only applies to timeouts that are within the content provider's knowledge or control. For example, if the user closes a web browser or device and loses content in an open page that has not yet been submitted, the success criterion has not been violated.</p>
-    
-    </section>
-		<section id="benefits">
-			<h2>Benefits</h2>
-			<p>This Success Criterion helps users by ensuring they are notified about timeouts related to inactivity.</p>
-			<p>When a user knows how much time they are allowed for a task, they will know whether they can take a needed break and resume their work without needing to start again. This enables many users to complete tasks online that they otherwise could not do. If a situation exists where a timeout is necessary, the user is warned at the start of the task about the length of inactivity that would generate a timeout. The user can then decide if they can manage this task or not in the given time, or if they need to prepare materials in advance of starting a process. This will reduce the frustration of losing work due to a timeout.</p>
+        <!-- ==================================================== -->
+        <!-- TU ROZPOCZNIJ TŁUMACZENIE -->
+        <!-- ==================================================== -->  
 
-			<p>This Success Criterion helps people with many different cognitive disabilities, including people with:</p>
-			<ul>
-				<li>language-related disabilities; </li>
-				<li>memory-related disabilities; </li>
-				<li>focus-and-attention-related disabilities; and </li>
-				<li>disabilities that affect executive function and decision making. </li>
-			</ul>
-		</section>
-		<section id="examples">
-			<h2>Examples</h2>     
-			<ul>
-				<li>While making a purchase on an e-commerce Web site, the information input by the user is stored for more than 20 hours. This helps ensure that if they need to stop working for a while that they are more likely to be able to continue the purchase when they return.</li>
-				<li>A web application allowing people to file tax returns provides a notice that the application will time out for security purposes. The notice indicates that a lack of activity for a continuous period of time that is greater than an hour will trigger initiate the time out process.</li>
-				<li>An online contact form does not implement any type of time out process. Information entered into the contact form can be submitted at any time and would only be lost if the user closes their browser window.</li>
-			</ul>
-		</section>
-		<section id="resources">
-			<h2>Related Resources</h2>
-			<ul>
-        <li><a href="https://rawgit.com/w3c/coga/master/gap-analysis/table.html">User Needs Table 3: Entering data, error prevention &amp; recovery</a></li>
-        <li><a href="https://www.ssa.gov/accessibility/bpl/bps/forms/timeout/default.htm">SSA Best Practices Library: Timeouts</a></li>
-			</ul>
-		</section>
-		<section id="techniques">
-			<h2>Techniques</h2>
-			<section id="sufficient">
-				<h3>Sufficient</h3>
-				<ul>
-					<li>Setting a session timeout to occur following at least 20 hours of inactivity.</li>
-					<li>Store user data for more than 20 hours.</li>
-					<li>Provide a warning of the duration of user inactivity at the start of a process.</li>
-				</ul>
-			</section>
-		</section>
-<!-- ==================================================== -->
-<!-- PONIŻEJ NIC NIE ZMIENIAJ -->
-<!-- ==================================================== -->   
-		</main>
-	</div>
-	<footer class="site-footer grid-4q" aria-label="Site">
-		<div class="q1-start q3-end about">
-			<div style="margin-bottom:1em">
-				<p><a class="largelink" href="https://www.irdpl.pl/" dir="auto" translate="no" lang="pl">© Polska Izba Rzemiosła Dostępnościowego</a></p>
-				<p>
-					Platforma swobodnej współpracy osób i firm, które zajmują się dostępnością i chcą rozwijać w Polsce rynek rzetelnych usług dostępnościowych
-				</p>
-			</div>
-			<div dir="auto" translate="no" lang="en" style="margin-bottom:1em">
-				<p>
-					Prawa autorskie do wszystkich materiałów w tej witrynie należą do W3C.<br />Copyright © 2023 W3C <sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>, <a href="https://ev.buaa.edu.cn">Beihang</a>) <a href="https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231">Zezwolenie na wykorzystanie materiałów WAI</a>.
-				</p>
+        <section id="intent">
+          <h2>Intent</h2>
+          <p>The intent of this Success Criterion is to ensure that when a timeout is used, users know what duration of inactivity will cause the page to time out and result in lost data. The use of timed events can present significant barriers for users with cognitive disabilities, as these users may require more time to read content or to perform functions, such as completing an online form.</p>
+		  
+          <p>During the completion of an online process, such as to reserve a hotel room or purchase a plane ticket, a user with a cognitive impairment may become overwhelmed with lengthy instructions and data input required to complete the process. The user may not be able to complete the process in one sitting and may need to take a break. Users should be able to leave a process without losing their current place within the process, and without losing information that has already been entered. If users cannot take a break and check their work, many will often be unable to complete a task correctly.</p>
+		  
+          <p>This Success Criterion works in tandem with Success Criterion 2.2.1 Timing Adjustable, but is specifically focused on notification of timeouts related to user inactivity.</p>
+		  
+          <p>The best way to conform to this success criterion is to keep the user data for at least 20 hours. This enables the user with disabilities and the aging community to start and finish a task, taking breaks as needed. However, when it is not practical to save the user data the author must warn the user about the duration of inactivity which will result in a timeout. Timeouts should be displayed to the user once at the beginning of the related task or process and not at each step.</p>
+		  
+          <p>This success criterion only applies to timeouts that are within the content provider's knowledge or control. For example, if the user closes a web browser or device and loses content in an open page that has not yet been submitted, the success criterion has not been violated.</p>
 
-			</div>
-		</div>
-		<div dir="auto" translate="no" class="q4-start q4-end" lang="en">
-			<!--       <ul style="margin-bottom:0">
-					  <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
-					  <li><a href="/sitemap/">Site Map</a></li>
-					  <li><a href="/news/">News</a></li>
-					  <li><a href="/sitemap/#archive">Archive</a></li>
-					  <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
-					  <li><a href="/translations/"> Translations</a></li>
-					  <li><a href="/WAI/roles/">Resources for Roles</a></li>
-				   </ul> -->
-		</div>
-	</footer>
+        </section>
+        <section id="benefits">
+          <h2>Benefits</h2>
+          <p>This Success Criterion helps users by ensuring they are notified about timeouts related to inactivity.</p>
+          <p>When a user knows how much time they are allowed for a task, they will know whether they can take a needed break and resume their work without needing to start again. This enables many users to complete tasks online that they otherwise could not do. If a situation exists where a timeout is necessary, the user is warned at the start of the task about the length of inactivity that would generate a timeout. The user can then decide if they can manage this task or not in the given time, or if they need to prepare materials in advance of starting a process. This will reduce the frustration of losing work due to a timeout.</p>
 
+          <p>This Success Criterion helps people with many different cognitive disabilities, including people with:</p>
+          <ul>
+            <li>language-related disabilities; </li>
+            <li>memory-related disabilities; </li>
+            <li>focus-and-attention-related disabilities; and </li>
+            <li>disabilities that affect executive function and decision making. </li>
+          </ul>
+        </section>
+        <section id="examples">
+          <h2>Examples</h2>     
+          <ul>
+            <li>While making a purchase on an e-commerce Web site, the information input by the user is stored for more than 20 hours. This helps ensure that if they need to stop working for a while that they are more likely to be able to continue the purchase when they return.</li>
+            <li>A web application allowing people to file tax returns provides a notice that the application will time out for security purposes. The notice indicates that a lack of activity for a continuous period of time that is greater than an hour will trigger initiate the time out process.</li>
+            <li>An online contact form does not implement any type of time out process. Information entered into the contact form can be submitted at any time and would only be lost if the user closes their browser window.</li>
+          </ul>
+        </section>
+        <section id="resources">
+          <h2>Related Resources</h2>
+          <ul>
+            <li><a href="https://rawgit.com/w3c/coga/master/gap-analysis/table.html">User Needs Table 3: Entering data, error prevention &amp; recovery</a></li>
+            <li><a href="https://www.ssa.gov/accessibility/bpl/bps/forms/timeout/default.htm">SSA Best Practices Library: Timeouts</a></li>
+          </ul>
+        </section>
+        <section id="techniques">
+          <h2>Techniques</h2>
+          <section id="sufficient">
+            <h3>Sufficient</h3>
+            <ul>
+              <li>Setting a session timeout to occur following at least 20 hours of inactivity.</li>
+              <li>Store user data for more than 20 hours.</li>
+              <li>Provide a warning of the duration of user inactivity at the start of a process.</li>
+            </ul>
+          </section>
+        </section>
+        <!-- ==================================================== -->
+        <!-- PONIŻEJ NIC NIE ZMIENIAJ -->
+        <!-- ==================================================== -->   
+      </main>
+    </div>
+    <footer class="site-footer grid-4q" aria-label="Site">
+      <div class="q1-start q3-end about">
+        <div style="margin-bottom:1em">
+          <p><a class="largelink" href="https://www.irdpl.pl/" dir="auto" translate="no" lang="pl">© Polska Izba Rzemiosła Dostępnościowego</a></p>
+          <p>
+            Platforma swobodnej współpracy osób i firm, które zajmują się dostępnością i chcą rozwijać w Polsce rynek rzetelnych usług dostępnościowych
+          </p>
+        </div>
+        <div dir="auto" translate="no" lang="en" style="margin-bottom:1em">
+          <p>
+            Prawa autorskie do wszystkich materiałów w tej witrynie należą do W3C.<br />Copyright © 2023 W3C <sup>®</sup> (<a href="https://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="https://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="https://www.keio.ac.jp/">Keio</a>, <a href="https://ev.buaa.edu.cn">Beihang</a>) <a href="https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231">Zezwolenie na wykorzystanie materiałów WAI</a>.
+          </p>
 
+        </div>
+      </div>
+      <div dir="auto" translate="no" class="q4-start q4-end" lang="en">
+        <!--       <ul style="margin-bottom:0">
+       <li><a href="/WAI/about/contacting/">Contact WAI</a></li>
+       <li><a href="/sitemap/">Site Map</a></li>
+       <li><a href="/news/">News</a></li>
+       <li><a href="/sitemap/#archive">Archive</a></li>
+       <li><a href="/WAI/about/accessibility-statement/">Accessibility Statement</a></li>
+       <li><a href="/translations/"> Translations</a></li>
+       <li><a href="/WAI/roles/">Resources for Roles</a></li>
+       </ul> -->
+      </div>
+    </footer>
 
-	<a class="button button-backtotop" href="#top">
-		<span>
-			<svg focusable="false" aria-hidden="true" class="icon-arrow-up " viewBox="0 0 26 28">
-				<path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
-			</svg> Wróć do góry
-		</span>
-	</a>
+    <a class="button button-backtotop" href="#top">
+      <span>
+        <svg focusable="false" aria-hidden="true" class="icon-arrow-up " viewBox="0 0 26 28">
+          <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+        </svg> Wróć do góry
+      </span>
+    </a>
 
-	<script>
-		var translationStrings = {}; /* fix WAI JS */
-	</script>
-	<script src="https://www.w3.org/WAI/assets/scripts/main.js"></script>
-</body>
+    <script>
+      var translationStrings = {}; /* fix WAI JS */
+    </script>
+    <script src="https://www.w3.org/WAI/assets/scripts/main.js"></script>
+  </body>
 </html>
